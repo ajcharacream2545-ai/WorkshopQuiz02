@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AJCHARA SAU - Contact</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      background: #000;
+      color: #fff;
+      font-family: 'Poppins', sans-serif;
+    }
+    /* HEADER */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px 60px;
+    }
+    .logo {
+      font-weight: 600;
+      font-size: 1.4rem;
+    }
+    nav a {
+      margin: 0 18px;
+      color: #ccc;
+      text-decoration: none;
+      font-size: 0.95rem;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: yellow;
+    }
+    .talk-btn {
+      background: transparent;
+      border: 1px solid #fff;
+      padding: 7px 22px;
+      border-radius: 25px;
+      color: yellow;
+      border-color: yellow;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .talk-btn:hover {
+      background: yellow;
+      color: #000;
+    }
+
+    /* CONTACT SECTION */
+    .contact-section {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .contact-section h1 {
+      font-size: 2.2rem;
+      font-weight: 600;
+      margin-bottom: 25px;
+    }
+    .contact-section h2 {
+      font-size: 1.4rem;
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+    .contact-section p {
+      color: #aaa;
+      margin-bottom: 60px;
+    }
+
+    .contact-items {
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+      flex-wrap: wrap;
+    }
+    .contact-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 180px;
+    }
+    .contact-item img {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+    .contact-item span {
+      color: #ccc;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="logo">AJCHARA SAU</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Portfolio</a>
+    </nav>
+    <button class="talk-btn">Let's talk</button>
+  </header>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <h1>Contact</h1>
+    <h2>Let’s Connect</h2>
+    <p>Don't be a stranger! Say hello and let's collaborate</p>
+
+    <div class="contact-items">
+      <div class="contact-item">
+        <img src="./image/Profile Icon.png" alt="email">
+        <span>ajcharacream2545@gmail.com</span>
+      </div>
+      <div class="contact-item">
+        <img src="./image/Group 510.png" alt="location">
+        <span>Thailand, Bangkok</span>
+      </div>
+      <div class="contact-item">
+        <img src="./image/Group 511.png" alt="linkedin">
+        <span>AJCHARA SAU</span>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
